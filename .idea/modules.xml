@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-common/spring-common.iml" filepath="$PROJECT_DIR$/spring-common/spring-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hutool-tools/spring-hutool-tools.iml" filepath="$PROJECT_DIR$/spring-hutool-tools/spring-hutool-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-my-elasticSearch/spring-my-elasticSearch.iml" filepath="$PROJECT_DIR$/spring-my-elasticSearch/spring-my-elasticSearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-my-histrix-8010/spring-my-histrix-8010.iml" filepath="$PROJECT_DIR$/spring-my-histrix-8010/spring-my-histrix-8010.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-my-histrix-feign-8011/spring-my-histrix-feign-8011.iml" filepath="$PROJECT_DIR$/spring-my-histrix-feign-8011/spring-my-histrix-feign-8011.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-my-rabbitMQ-15688/spring-my-rabbitMQ-15688.iml" filepath="$PROJECT_DIR$/spring-my-rabbitMQ-15688/spring-my-rabbitMQ-15688.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-myorder-openfeign-80/spring-myorder-openfeign-80.iml" filepath="$PROJECT_DIR$/spring-myorder-openfeign-80/spring-myorder-openfeign-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-myorders-80/spring-myorders-80.iml" filepath="$PROJECT_DIR$/spring-myorders-80/spring-myorders-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mypayment-8001/spring-mypayment-8001.iml" filepath="$PROJECT_DIR$/spring-mypayment-8001/spring-mypayment-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mypayment-8002/spring-mypayment-8002.iml" filepath="$PROJECT_DIR$/spring-mypayment-8002/spring-mypayment-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+    </modules>
+  </component>
+</project>

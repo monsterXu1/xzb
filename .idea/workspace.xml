@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c41d0256-9959-4d5b-b842-32b68e507d28" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../mytool/mytool/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\mytool\mytool\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hnfcZL52mpFSWq2SPMHh04HQ3G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\springcloud\spring-my-histrix-8010\src\main\resources" />
+      <recent name="E:\project\springcloud\spring-myorder-openfeign-80\src\main\resources" />
+      <recent name="E:\project\springcloud\spring-mypayment-8002\src\main\java\com\my\spring" />
+      <recent name="E:\project\springcloud\spring-mypayment-8002\src\main\resources" />
+      <recent name="E:\project\springcloud\spring-common\src\main\java\com\my\common\entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HuToolService">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration name="HuToolService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.hutool.service.HuToolService" />
+      <module name="spring-hutool-tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.hutool.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-my-elasticSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.es.clent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.my.es.clent" />
+      <option name="MAIN_CLASS_NAME" value="com.my.es.clent.test" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.creatIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-my-elasticSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.es.clent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.my.es.clent" />
+      <option name="MAIN_CLASS_NAME" value="com.my.es.clent.test" />
+      <option name="METHOD_NAME" value="creatIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="springcloud" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.my.common.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplictionOrder80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-myorders-80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.my.oeder.ApplictionOrder80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticSeatrchApplication8088" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-my-elasticSearch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.my.es.ElasticSeatrchApplication8088" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignAppliction80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-myorder-openfeign-80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.my.spring.FeignAppliction80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistrixApplicationw8010" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-my-histrix-8010" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.histrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.my.histrix.HistrixApplicationw8010" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistrixFeignApplication8011" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-my-histrix-feign-8011" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.histrixFeigne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.my.histrixFeigne.HistrixFeignApplication8011" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuToolApplication8000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-hutool-tools" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.my.hutool.HuToolApplication8000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMQApplicatiion15688" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-my-rabbitMQ-15688" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.my.rabbitMQ.RabbitMQApplicatiion15688" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="paymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-mypayment-8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.my.spring.paymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.HuToolService" />
+      <item itemvalue="JUnit.test" />
+      <item itemvalue="JUnit.test.creatIndex" />
+      <item itemvalue="Spring Boot.paymentApplication" />
+      <item itemvalue="Spring Boot.ApplictionOrder80" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.FeignAppliction80" />
+      <item itemvalue="Spring Boot.RabbitMQApplicatiion15688" />
+      <item itemvalue="Spring Boot.ElasticSeatrchApplication8088" />
+      <item itemvalue="Spring Boot.HuToolApplication8000" />
+      <item itemvalue="Spring Boot.HistrixApplicationw8010" />
+      <item itemvalue="Spring Boot.HistrixFeignApplication8011" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HuToolService" />
+        <item itemvalue="JUnit.test.creatIndex" />
+        <item itemvalue="JUnit.test" />
+        <item itemvalue="Spring Boot.HistrixFeignApplication8011" />
+        <item itemvalue="Spring Boot.HistrixApplicationw8010" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c41d0256-9959-4d5b-b842-32b68e507d28" name="Default" comment="" />
+      <created>1598003941656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598003941656</updated>
+      <workItem from="1598003944262" duration="603000" />
+      <workItem from="1598004573100" duration="4574000" />
+      <workItem from="1598513134079" duration="19000" />
+      <workItem from="1598756728042" duration="745000" />
+      <workItem from="1598757499399" duration="9269000" />
+      <workItem from="1600651859216" duration="966000" />
+      <workItem from="1600652857248" duration="3521000" />
+      <workItem from="1600658808156" duration="1268000" />
+      <workItem from="1600660093252" duration="7672000" />
+      <workItem from="1600672829831" duration="10651000" />
+      <workItem from="1600737677412" duration="1090000" />
+      <workItem from="1600739479848" duration="93000" />
+      <workItem from="1600853219755" duration="3215000" />
+      <workItem from="1600910984938" duration="15736000" />
+      <workItem from="1600997415127" duration="17085000" />
+      <workItem from="1601023890914" duration="4465000" />
+      <workItem from="1601172238190" duration="1226000" />
+      <workItem from="1601260456059" duration="7457000" />
+      <workItem from="1611545874349" duration="4854000" />
+      <workItem from="1611824156305" duration="2851000" />
+      <workItem from="1611886631015" duration="7860000" />
+      <workItem from="1613975044022" duration="1343000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="72" y="0" key="#Project_Structure" timestamp="1611887275124">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="72" y="0" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1611887275124" />
+    <state x="370" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611887162473">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="370" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1611887162473" />
+    <state width="1384" height="118" key="GridCell.Tab.0.bottom" timestamp="1611899997825">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1384" height="118" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1611899997825" />
+    <state width="1384" height="118" key="GridCell.Tab.0.center" timestamp="1611899997825">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1384" height="118" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1611899997825" />
+    <state width="1384" height="118" key="GridCell.Tab.0.left" timestamp="1611899997825">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1384" height="118" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1611899997825" />
+    <state width="1384" height="118" key="GridCell.Tab.0.right" timestamp="1611899997825">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1384" height="118" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1611899997825" />
+    <state width="1384" height="118" key="GridCell.Tab.1.bottom" timestamp="1611899997827">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1384" height="118" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1611899997827" />
+    <state width="1384" height="118" key="GridCell.Tab.1.center" timestamp="1611899997825">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1384" height="118" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1611899997825" />
+    <state width="1384" height="118" key="GridCell.Tab.1.left" timestamp="1611899997825">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1384" height="118" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1611899997825" />
+    <state width="1384" height="118" key="GridCell.Tab.1.right" timestamp="1611899997827">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1384" height="118" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1611899997827" />
+    <state x="0" y="4" width="1440" height="808" key="new project wizard" timestamp="1611886761562">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="0" y="4" width="1440" height="808" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1611886761562" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-myorder-openfeign-80/src/main/java/com/my/spring/controller/FeignController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-my-rabbitMQ-15688/src/main/java/com/my/rabbitMQ/controller/MqController.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-my-rabbitMQ-15688/src/main/java/com/my/rabbitMQ/mqSender/MqSender.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-hutool-tools/src/main/java/com/my/hutool/service/HuToolService.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-hutool-tools/src/main/java/com/my/hutool/service/IOUtilservice.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Assert.assertEquals(rawAtr, abc)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/springcloud$test.ic" NAME="test Coverage Results" MODIFIED="1601261855706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.my.es.clent.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -1,0 +1,53 @@
+server:
+  port: 8011
+spring:
+  application:
+    name: service-histrix-histrix-8011
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/world?&useUnicode=true&characterEncoding=utf-8&useSSL=false
+
+  cloud:
+    consul:
+      host:  127.0.0.1
+      port:  8500
+      discovery:
+        enabled: true  #启用服务发现
+        service-name: ${spring.application.name}
+        health-check-interval: 3s  #健康检查频率，也就是心跳频率
+        register: true  #启用服务注册
+        deregister: true  #服务停止时取消注册
+        prefer-ip-address: true  #表示注册时使用IP而不是hostnamee
+        health-check-critical-timeout: 30s  #健康检查失败多长时间后，取消注册
+        ip-address: localhost
+        #服务注册标识(服务 ID)，格式为：应用名称+服务器IP+端口，请勿使用随机数，在服务重启过程中，会在consul上生成多个实例
+        #sinstance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+#设置feign的超时时间
+feign:
+  hystrix:
+    enabled: true    #Feign是否启用断路器,默认为false
+  client:
+    config:
+      default:
+        connectTimeout:  10000 #Feign的连接建立超时时间，默认为10秒
+        readTimeout:  10000  #Feign的请求处理超时时间，默认为1s
+
+#ribbon设置超时时间
+ribbon:
+  ###指的是建立连接后从服务器读取到可用资源所用的时间。
+  #ConnectTimeout: 5000
+  ###指的是建立连接所用的时间，适用于网络状况正常的情况下，两端连接所用的时间。
+  #ReadTimeout: 5000
+
+#不设置超时时间 ：hystrix.command.default.execution.timeout.enabled=false
+#当feign。hystrix.enable= true 必须先配置一个hystrix自身的超时时间  默认是1s
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000

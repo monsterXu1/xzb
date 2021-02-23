@@ -1,0 +1,27 @@
+server:
+  port: 80
+spring:
+  application:
+    name: order-service-Feign-80
+#ribbon:
+  #  #简历连接所用的时间，适用于网络状况正常的情况下，两端连接所需要的时间
+  #ConnectTimeOut: 5000
+  #  #指建立连接后从服务端读取到可用资源所用的时间
+  #ReadTimeOut: 5000
+
+logging:
+  level:
+    #设置经过接口请求的日志级别  配置在 FeignConfig 中
+    com.my.spring.service.FeignService:  debug
+
+#设置feign的超时时间
+feign:
+  hystrix:
+    enabled: false  #Feign是否启用断路器,默认为false
+  client:
+    config:
+      default:
+        connectTimeout:  5000 #Feign的连接建立超时时间，默认为10秒
+        readTimeout:  4000  #Feign的请求处理超时时间，默认为1s
+        default:
+          retryer:  feign.Retryer.Default

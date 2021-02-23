@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-common" />
+        <module name="spring-my-elasticSearch" />
+        <module name="spring-myorder-openfeign-80" />
+        <module name="spring-myorders-80" />
+        <module name="spring-my-histrix-feign-8011" />
+        <module name="spring-my-histrix-8010" />
+        <module name="spring-my-rabbitMQ-15688" />
+        <module name="spring-hutool-tools" />
+        <module name="spring-mypayment-8002" />
+        <module name="spring-mypayment-8001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cload-payment-8001" target="1.8" />
+      <module name="cloud-payment-8001" target="1.8" />
+      <module name="cloud-payment8001" target="11" />
+      <module name="payment" target="11" />
+      <module name="spring -myorder-80" target="1.8" />
+      <module name="spring-common" target="1.8" />
+      <module name="spring-hutool-tools" target="1.8" />
+      <module name="spring-my-elasticSearch" target="1.8" />
+      <module name="spring-my-histrix-8010" target="1.8" />
+      <module name="spring-my-histrix-feign-8011" target="1.8" />
+      <module name="spring-my-rabbitMQ-15688" target="1.8" />
+      <module name="spring-myorder-openfeign-80" target="1.8" />
+      <module name="spring-myorders-80" target="1.8" />
+      <module name="spring-mypayment-8001" target="1.8" />
+      <module name="spring-mypayment-8002" target="1.8" />
+      <module name="springcloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring -myorder-80" options="-parameters" />
+      <module name="spring-common" options="-parameters" />
+      <module name="spring-hutool-tools" options="-parameters" />
+      <module name="spring-my-elasticSearch" options="-parameters" />
+      <module name="spring-my-histrix-8010" options="-parameters" />
+      <module name="spring-my-histrix-feign-8011" options="-parameters" />
+      <module name="spring-my-rabbitMQ-15688" options="-parameters" />
+      <module name="spring-myorder-openfeign-80" options="-parameters" />
+      <module name="spring-myorders-80" options="-parameters" />
+      <module name="spring-mypayment-8001" options="-parameters" />
+      <module name="spring-mypayment-8002" options="-parameters" />
+    </option>
+  </component>
+</project>
