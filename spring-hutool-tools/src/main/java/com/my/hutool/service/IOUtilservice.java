@@ -38,6 +38,7 @@ public class IOUtilservice {
         IoUtil.writeObjects(out,true,s);
 
         FileInputStream fileInputStream = IoUtil.toStream(new File("d:/test.txt"));
+        System.out.println("ddd");
         //字符串转字节数流
         ByteArrayInputStream byteArrayInputStream = IoUtil.toStream(s, StandardCharsets.UTF_8);
 
